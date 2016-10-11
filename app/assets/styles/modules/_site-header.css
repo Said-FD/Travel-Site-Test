@@ -1,6 +1,5 @@
 .site-header {
 	position: absolute;
-	top: 0;
 	z-index: 2;
 	width: 100%;
 	padding: 10px 0;
@@ -12,7 +11,6 @@
 
 	@mixin atMedium {
 		position: fixed;
-		top: 0;
 		background: rgba($mainBlue, .3);
 
 		&--dark {
@@ -35,7 +33,7 @@
 			transform: translateX(0);
 
 			.site-header--dark & {
-				transform: scale(.565);
+				transform: scale(.554);
 			}
 		}
 	}
